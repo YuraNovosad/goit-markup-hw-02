@@ -205,6 +205,12 @@ body {
    letter-spacing: 0.03em;
    font-family: inherit;
    font-style: inherit;
+   cursor: pointer;
+}
+
+.button-filter:hover,
+.button-filter:focus {
+   color: var(--accent-color);
 }
 
 .card-title{
